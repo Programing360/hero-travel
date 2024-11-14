@@ -1,0 +1,45 @@
+/* share style */
+body{
+    font-family: "Mulish", sans-serif;
+}
+/* header related */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 127px 41px 130px;
+    /* font-family: "Mulish", sans-serif; */
+}
+.hero-travel{
+    display: flex;
+    align-items: center;
+    /* width: 270px; */
+}
+.hero-travel img{
+    max-width: 48px;
+    margin-right: 16px;
+}
+.hero-travel h2{
+    width: 201px;
+    height: 45px;
+    font-size: 36px;
+    color: #FF5400;
+}
+.hero{
+    color: #131318;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 18px;
+}
+nav ul a{
+    text-decoration: none;
+    
+    color: #131318;
+    
+}
+.home{
+    color: #FF5400;
+}

@@ -4,7 +4,7 @@ body{
 }
 /* header related */
 header{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     margin: 50px 127px 41px 130px;
@@ -28,6 +28,10 @@ header{
 .hero{
     color: #131318;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 nav ul{
     display: flex;
     gap: 40px;
@@ -42,4 +46,63 @@ nav ul a{
 }
 .home{
     color: #FF5400;
+}
+.explore-travel{
+    background-image:radial-gradient(ellipse at top,rgba(0, 0, 0, 0.367) 80%,transparent), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    /* background: linear-gradient(#131318 10%, #131317 20%); */
+    /* background-image: radial-gradient(ellipse at top,black 10%,transparent); */
+    max-width: 95%;
+    height: 500px;
+    border-radius: 15px;
+    margin: 50px;
+}
+.explore-travels{
+    /* width: 800px; */
+    text-align: center;
+    /* border: 1px solid #FF5400; */
+}
+.explore-travel h1{
+    width: 596px;
+    font-size: 64px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    /* text-align: center; */
+    padding: 50px 247px 0px 247px;
+}
+.explore-travel p{
+    width: 676px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding: 0px 200px 20px 207px;
+}
+.time-setup{
+    background-color: #ffffff5a;
+    max-width: 80%;
+    padding-top: 30px;
+    height: 84px;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+.time{
+    width: 174px;
+    height: 52px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    border: 0px;
+    margin-right: 24px;
+    
+}
+.find-now{
+    width: 174px;
+    height: 52px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #FF5400;
+    border: 0px;
+    border-radius: 8px;
+    
 }

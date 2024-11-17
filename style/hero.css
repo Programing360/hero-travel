@@ -297,7 +297,7 @@ nav ul a{
 }
 .token-card{
     width: 573px;
-    border: 1px solid #FF5400;
+    /* border: 1px solid #FF5400; */
     padding: 32px 0px 32px 32px;
     background-color: #881fe414;
     border-radius: 20px;
@@ -317,7 +317,94 @@ nav ul a{
     width: 486px;
     color: #5A5A5D;
 }
-
+/* section4 */
+.image1{
+    margin-left: 135px;
+}
+.deals-discounts-title{
+    width: 643px;
+    /* border: 1px solid #FF5400; */
+    text-align: center;
+    margin: 100px 400px 48px 400px;
+}
+.deals-discounts-title h2{
+    
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #131318;
+    
+}
+.deals-discounts-title p{
+    width: 643px;
+    height: 52px;
+    font-size: 1rem;
+    color: #131318;
+    opacity: 70%;
+}
+.tour-img-description{
+    /* margin: 56px 56px 55px 450px; */
+    margin-top: 80px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 550px;
+    background-color: #ffffffcd;
+    max-width: 500px;
+    /* height: 389px; */
+    padding: 50px 7px 50px 50px;
+    border-radius: 16px;
+    position: relative;
+    top: -560px;
+}
+.tour-img-description h3{
+    width: 186px;
+    font-size: 24px;
+    color: #131318;
+}
+.tour-img-description p{
+    width: 452px;
+    font-size: 1rem;
+    color: #5A5A5D;
+    line-height: 26px;
+}
+.price-tag{
+    font-size: 20px;
+    font-weight: 900;
+    /* width: 188px; */
+    /* height: 25px; */
+    color: #FF5400;
+}
+.btn-primary{
+    width: 150px;
+    height: 52px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.btn-primary:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+.tour-img{
+    max-width: 1170px;
+    height: 550px;
+    /* background-image: url(../Images/Group\ 39.png); */
+    background-repeat: no-repeat;
+   
+}
+.date-style{
+    display: flex;
+    gap: 20px;
+    color: #5A5A5D;
+    
+}
+.date-style p{
+    font-size: 16px;
+    width: 111px;
+}
 /* responsive media quiary */
 
 @media screen and (max-width: 576px) {
@@ -517,5 +604,52 @@ nav ul a{
     }
     .token-card p{
         width: 200px;
+    }
+    .deals-discounts-title{
+        margin: 0px;
+        /* text-align: unset; */
+        max-width: 100%;
+    }
+    .deals-discounts-title h2{
+        font-size: 1rem;
+    }
+    .deals-discounts-title p{
+        width: 390px;
+    }
+    .tour-img{
+        max-width: 300px;
+    }
+    .tour-img img{
+       width: 380px;
+       height: 500px;
+    }
+    .tour-img-description{
+        top: -300px;
+        margin: 0px;
+        margin-left: 30px;
+        padding: 24px;
+    }
+    .tour-img-description h3{
+        width: 200px;
+        margin: 0px;
+    }
+    .tour-img-description p{
+        width: 250px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    .image1{
+        margin: 0px;
+    }
+    .price-tag{
+        font-size: 14px;
+        width: 300px;
+    }
+    .date-style{
+        width: 250px;
+    }
+    .btn-primary{
+        width: 130px;
+        height: 40px;
     }
 }

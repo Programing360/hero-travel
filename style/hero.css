@@ -414,6 +414,7 @@ nav ul a{
     color: #FFFFFF;
     font-size: 1rem;
     cursor: pointer;
+    margin-left: 500px;
 }
 .see-all-packages:hover{
     background-color: blueviolet;
@@ -459,7 +460,97 @@ nav ul a{
     text-align: center;
     color: #FFFFFF;
 }
-
+/* section6 */
+.newswletter-contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 135px 84px 135px;
+    gap:24px;
+}
+.newswletter{
+    width: 474px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    padding: 25px 40px;
+}
+.newswletter h2{
+    font-size: 24px;
+    width: 126px;
+    color: #131318;
+}
+.newswletter p{
+    width: 350px;
+    height: 52px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5A5A5D;
+}
+.line-style{
+    width: 393px;
+    padding: 0px;
+    margin: 0px;
+    color: #131318;
+    opacity: 30%;
+}
+.form-style{
+    margin-top: 24px;
+    font-size: 16px;
+    padding: 16px;
+    border: 1px solid #131318;
+    border-radius: 8px;
+    color: #131318;
+    opacity: 35%;
+    width: 393px;
+    height: 52px;
+}
+.form-style:hover{
+    border: 1px solid #FF5400;
+}
+.subscribe{
+    width: 430px;
+    height: 52px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    margin-top: 24px;
+    
+}
+.subscribe:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+.travel-card{
+    margin-top: 100px;
+    
+}
+.travel-title{
+    width: 324px;
+    height: 120px;
+    text-align: center;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    border-radius: 16px;
+    position: relative;
+    top: -185px;
+    left: 340px;
+    transform: rotate(-25deg);
+}
+.travel-title:hover{
+    background-color: rgba(27, 134, 221, 0.766);
+}
+.travel-card h3{
+    font-size: 1.5rem;
+    padding-top: 20px;
+    margin: 0px;
+}
+.travel-title h2{
+    /* width: 244px; */
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0px;
+}
 /* responsive media quiary */
 
 @media screen and (max-width: 576px) {
@@ -743,5 +834,43 @@ nav ul a{
     .vedio-title h2{
         top: -200px;
         left: 80px;
+    }
+    /* section6 */
+    .newswletter-contant{
+        flex-direction: column;
+        align-items: unset;
+        margin: 0px;
+        /* max-width: 100%; */
+    }
+    .newswletter{
+        max-width: 80%;
+    }
+    .line-style{
+        max-width: 100%;
+    }
+    .travel-card img{
+        max-width: 100%;
+    }
+    .form-style{
+        max-width: 100%;
+    }
+    .subscribe{
+        max-width: 100%;
+    }
+    .travel-title{
+        max-width: 214px;
+        height: 80px;
+        left: 195px;
+        top: -120px;
+    }
+    .travel-title h3{
+        /* width: 80px; */
+        height: 20px;
+        font-size: 15px;
+    }
+    .travel-title h2{
+        /* width: 161px; */
+        height: 27px;
+        font-size: 20px;
     }
 }
